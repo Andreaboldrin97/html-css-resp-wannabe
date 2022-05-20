@@ -108,9 +108,6 @@ img {
 }
 
 /* WHY US SECTION */
-.why-us {
-    margin-bottom: 3rem;
-}
 .why-us .col-left {
     width: 40%;
 }
@@ -137,13 +134,21 @@ img {
  @media all and (max-width: 479px) { 
     .container{
         width: 100%;
+        margin: 0 auto;
     }
     .row {
         display: block;
     }
-    /* site-header */
-    .site-header h1{
+    h1 {
         font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
     }
     /* lesson section */
     .lessons .col {
@@ -163,12 +168,13 @@ img {
      .why-us{
          background-color: rgb(31, 31, 31);
      }
-     .why-us h2{
+    .why-us h2{
         padding-top: 2.5rem;
         font-size: 3rem;
     }
      .why-us .col{
          width: 100%;
+         padding-bottom: 2.5rem;
      }
      .why-us .col li{
          margin-top: 2.5rem;
