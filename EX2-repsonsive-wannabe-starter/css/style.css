@@ -135,6 +135,38 @@ img {
      }
  }
  @media all and (max-width: 479px) { 
-     
- }
- 
+    .container{
+        width: 100%;
+    }
+    .row {
+        display: block;
+    }
+    /* site-header */
+    .site-header h1{
+        font-size: 3rem;
+    }
+    /* lesson section */
+    .lessons h2{
+        font-size: 3rem;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 2.5rem;
+    }
+    /* steps section */
+    .steps .col {  
+        width: 100%;
+     }
+     /* why us section */
+     .why-us h2{
+        font-size: 3rem;
+    }
+     .why-us .col{
+         width: 100%;
+     }
+     .why-us .col li{
+         margin-top: 2.5rem;
+     }
+}
