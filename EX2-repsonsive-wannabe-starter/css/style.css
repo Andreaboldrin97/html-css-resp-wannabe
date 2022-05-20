@@ -161,8 +161,8 @@ img {
     .col{
         padding: 0;
     }
-    .text{
-font-size: 22px;
+    p{
+        font-size: 22px;
     }
 
     /* lesson section */
