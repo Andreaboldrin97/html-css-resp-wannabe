@@ -125,6 +125,13 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ @media all and (max-width: 1139px) { 
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
  @media all and (max-width: 779px) { 
      .container{
          width: 750px;
@@ -154,6 +161,7 @@ img {
     .col{
         padding: 0;
     }
+
     /* lesson section */
     .lessons .col {
         width: 100%;
