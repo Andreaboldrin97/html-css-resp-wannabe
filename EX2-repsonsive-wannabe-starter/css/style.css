@@ -134,7 +134,7 @@ img {
 
  @media all and (max-width: 779px) { 
      .container{
-         width: 750px;
+         width: 100%;
          margin: 0 auto;
      }
  }
