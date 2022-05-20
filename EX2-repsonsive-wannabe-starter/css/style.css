@@ -133,8 +133,9 @@ img {
  }
  @media all and (max-width: 479px) { 
     .container{
-        width: 100%;
+        width: 100vw;
         margin: 0 auto;
+        padding: 0 30px;
     }
     .row {
         display: block;
@@ -149,6 +150,9 @@ img {
     
     h3 {
         font-size: 2rem;
+    }
+    .col{
+        padding: 0;
     }
     /* lesson section */
     .lessons .col {
