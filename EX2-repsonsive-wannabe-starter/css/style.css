@@ -161,6 +161,9 @@ img {
     .col{
         padding: 0;
     }
+    .text{
+font-size: 22px;
+    }
 
     /* lesson section */
     .lessons .col {
