@@ -146,9 +146,6 @@ img {
         font-size: 3rem;
     }
     /* lesson section */
-    .lessons h2{
-        font-size: 3rem;
-    }
     .lessons .col {
         width: 100%;
     }
@@ -156,11 +153,18 @@ img {
         margin-bottom: 2.5rem;
     }
     /* steps section */
+    .steps{
+        margin: 0;
+    }
     .steps .col {  
         width: 100%;
      }
      /* why us section */
+     .why-us{
+         background-color: rgb(31, 31, 31);
+     }
      .why-us h2{
+        padding-top: 2.5rem;
         font-size: 3rem;
     }
      .why-us .col{
