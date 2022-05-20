@@ -133,7 +133,7 @@ img {
  }
  @media all and (max-width: 479px) { 
     .container{
-        width: 100vw;
+        width: 450px;
         margin: 0 auto;
         padding: 0 30px;
     }
